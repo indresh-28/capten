@@ -48,7 +48,6 @@ var appsCmd = &cobra.Command{
 			}
 		}
 
-		//push the app config to cluster
 		//prepare agent proto to push app config
 		//agent store data on cassandra
 		logrus.Info("Default Applications Installed")
